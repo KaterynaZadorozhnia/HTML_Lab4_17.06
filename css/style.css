@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+/*Header*/
+.tel{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+    line-height: 16px;
+    text-decoration: none;
+}
+.email{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #808080;
+    text-decoration: none;
+}
+.page_cell{
+    width: 1180px;
+    margin: 0 auto;
+}
+.header__logo{
+    float: left;
+}
+.header__contact{
+    float: right;
+    text-align: right;
+}
+.header__email{
+    margin-top: 6px;
+}
+.header{
+    margin-top: 35px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 30px;
+}
+.clear{
+    clear: both;
+}
+/*END Header*/
+/*Navigation*/
+.nav__menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 28px;
+}
+.nav__item{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #000000;
+    font-size: 19px;
+    transition: .2s;
+    cursor: pointer;
+}
+.nav__item:hover{
+    color: #f44336;
+}
+/*END Navigation*/
+/*Slider*/
+.slider__item{
+  background: url("../img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 36%;
+}
+/*END Slider*/
+/*ABOUT*/
+.text_headers{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    margin: 40px;
+}
+.text__blocks{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.text__blocks_second{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+/*END ABOUT*/
+/*POPULAR*/
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 320px 320px;
+}
+.grid_item{
+
+
+}
+
+/*END POPULAR*/
+
