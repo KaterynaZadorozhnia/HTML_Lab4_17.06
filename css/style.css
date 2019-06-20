@@ -44,13 +44,13 @@
 }
 /*END Header*/
 /*Navigation*/
-.nav__menu{
+.nav__menu {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     margin: 28px;
 }
-.nav__item{
+.nav__item {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #000000;
@@ -58,12 +58,12 @@
     transition: .2s;
     cursor: pointer;
 }
-.nav__item:hover{
+.nav__item:hover {
     color: #f44336;
 }
 /*END Navigation*/
 /*Slider*/
-.slider__item{
+.slider__item {
   background: url("../img/1.jpg");
     background-size: cover;
     background-position: center;
@@ -71,7 +71,7 @@
 }
 /*END Slider*/
 /*ABOUT*/
-.text_headers{
+.text_headers {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 28px;
@@ -79,13 +79,13 @@
     text-align: center;
     margin: 40px;
 }
-.text__blocks{
+.text__blocks {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
 }
-.text__blocks_second{
+.text__blocks_second {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -94,15 +94,65 @@
 }
 /*END ABOUT*/
 /*POPULAR*/
-.grid__container{
+.grid__container {
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 320px 320px;
 }
-.grid_item{
-
-
+.grid_item {
+    background: #000;
+    position: relative;
+    cursor: pointer;
+}
+.item_img {
+    filter: brightness(50%);
+    transition: 1.5s;
+}
+.item_img:hover {
+    filter: brightness(100%);
+}
+.item_title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 29px;
+    color: #fff;
+}
+/*END POPULAR*/
+/*ADVANTAGES*/
+.advantages__container{
+    display: grid;
+    grid-gap: 110px;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+}
+/*END ADVANTAGES*/
+/*FOOTER*/
+.footer {
+    padding: 14px 0;
 }
 
-/*END POPULAR*/
-
+.footer p {
+    font-family: "Roboto", sans-serif;
+    line-height: 16px;
+    text-align: right;
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    margin: 7px 0;
+}
+/*END FOOTER*/
